@@ -1,0 +1,44 @@
+{
+  "project_name": "LexGlobal-OS",
+  "repository": "marcelcluj-bit/lex-global-os",
+  "license": "CC0-1.0 / MIT",
+  "domains": [
+    "lexglobal.com",
+    "lexglobal.org",
+    "lexglobal.net"
+  ],
+  "structure": {
+    "crawlers": [
+      "base_crawler.py",
+      "special_jurisdictions_crawler.py"
+    ],
+    "backend": [
+      "rag_engine.py"
+    ],
+    "data": {
+      "json": [
+        "RO.json",
+        "INT_AVIATION.json",
+        "INT_SUB_PRIVATE.json",
+        "EXT_ISS.json",
+        "TREATY_ECHR_1950.json",
+        "TREATY_NYC_1958.json",
+        "TREATY_AARHUS_1998.json"
+      ]
+    },
+    "frontend_site": [
+      "index.html"
+    ],
+    "root_files": [
+      "generate_site.py",
+      "requirements.txt",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "metadata": {
+    "standard": "Akoma-Ntoso-Compatible-JSON",
+    "status": "active",
+    "language": "en"
+  }
+}
