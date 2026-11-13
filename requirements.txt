@@ -1,0 +1,5 @@
+# LexGlobal-OS Dependencies
+# The core RAG engine, crawlers, and static site generator run purely on Python standard library modules (os, json, datetime, etc.) for zero-dependency portability.
+# Optional libraries for advanced vector search or HTTP requests:
+requests>=2.31.0
+numpy>=1.22.0
